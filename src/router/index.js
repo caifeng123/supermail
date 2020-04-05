@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 const Home = () => import('views/home/Home')
 const Category = () => import('views/category/Category')
 const Me = () => import('views/me/Me')
+const Detail = () => import('views/detail/Detail')
+
 Vue.use(VueRouter);
 
 const routes = [{
@@ -21,6 +23,10 @@ const routes = [{
 	{
 		path: '/category',
 		component:Category
+	},
+	{
+		path: '/detail',
+		component:Detail
 	}
 
 ]

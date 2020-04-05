@@ -3,8 +3,12 @@ import axios from 'axios'
 export function request(config) {
 	//1.创建axios实例
 	const instance = axios.create({
-		baseURL: 'http://123.207.32.32:8000',
-		timeout: 5000
+		baseURL: ' https://route.showapi.com/126-2',
+		// showapi_timestamp=new date(),
+		timeout: 5000, //http超时设置
+		options: { //默认请求参数,极少用到
+			testParam: 'test'
+		}
 	})
 	
 	//2.axios拦截器
