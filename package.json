@@ -7,7 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "better-scroll": "^2.0.0-beta.6",
     "core-js": "^3.6.4",
     "showapi-sdk": "^1.0.4",
